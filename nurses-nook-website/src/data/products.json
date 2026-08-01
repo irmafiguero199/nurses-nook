@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Nurses Nook T-Shirt", "price": 25, "category": "apparel", "description": "Support Nurses Nook with this comfortable cotton tee." },
+  { "id": 2, "name": "Wellness Journal", "price": 15, "category": "wellness", "description": "A guided journal for nurses to track mental health and gratitude." },
+  { "id": 3, "name": "Nurse Appreciation Mug", "price": 18, "category": "gifts", "description": "Ceramic mug with Nurses Nook logo." }
+]

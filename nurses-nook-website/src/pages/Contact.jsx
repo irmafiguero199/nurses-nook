@@ -18,8 +18,8 @@ function Contact() {
     <>
       <Helmet>
         <title>Contact | Nurses Nook - Oconto Falls, Wisconsin</title>
-        <meta name="description" content="Contact Nurses Nook at 123 Main Street, Suite 3, Oconto Falls, WI 54154-0026. Email: admin@nursesnook.org. Phone: (920) 846-1234. EIN 92-2233469." />
-        <link rel="canonical" href="https://nursesnook.org/contact" />
+        <meta name="description" content="Contact Nurses Nook at 123 Main Street, Suite 3, Oconto Falls, WI 54154-0026. Email: admin@nursesnook.sbs. Phone: (920) 846-1234. EIN 92-2233469." />
+        <link rel="canonical" href="https://nursesnook.sbs/contact" />
       </Helmet>
 
       <section className="bg-primary-700 text-white py-20">
@@ -57,9 +57,9 @@ function Contact() {
                   <div className="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center shrink-0"><Mail className="text-primary-700" size={24} /></div>
                   <div>
                     <h3 className="font-semibold text-slate-900">Email</h3>
-                    <p className="text-slate-600">General Inquiries: admin@nursesnook.org</p>
-                    <p className="text-slate-600">Programs: programs@nursesnook.org</p>
-                    <p className="text-slate-600">Donations: donate@nursesnook.org</p>
+                    <p className="text-slate-600">General Inquiries: admin@nursesnook.sbs</p>
+                    <p className="text-slate-600">Programs: programs@nursesnook.sbs</p>
+                    <p className="text-slate-600">Donations: donate@nursesnook.sbs</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">

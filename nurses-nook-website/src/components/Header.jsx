@@ -31,7 +31,7 @@ function Header({ isScrolled }) {
             <span className="hidden md:inline">Oconto Falls, WI 54154</span>
           </div>
           <div className="flex items-center gap-4">
-            <a href="mailto:admin@nursesnook.org" className="hover:text-primary-200 transition-colors">admin@nursesnook.org</a>
+            <a href="mailto:admin@nursesnook.sbs" className="hover:text-primary-200 transition-colors">admin@nursesnook.sbs</a>
             <span className="hidden sm:inline">|</span>
             <a href="tel:+19208461234" className="hidden sm:flex items-center gap-1 hover:text-primary-200 transition-colors">
               <Phone size={14} />

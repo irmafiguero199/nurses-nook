@@ -24,7 +24,7 @@ function About() {
       <Helmet>
         <title>About Us | Nurses Nook - Oconto Falls, Wisconsin Nonprofit</title>
         <meta name="description" content="Learn about Nurses Nook, a 501(c)(3) nonprofit organization (EIN 92-2233469) based in Oconto Falls, Wisconsin, dedicated to supporting nurses and healthcare professionals." />
-        <link rel="canonical" href="https://nursesnook.org/about" />
+        <link rel="canonical" href="https://nursesnook.sbs/about" />
       </Helmet>
 
       {/* Page Header */}

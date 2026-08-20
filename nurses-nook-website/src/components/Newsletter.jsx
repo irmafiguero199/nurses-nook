@@ -51,7 +51,7 @@ function Newsletter() {
           )}
 
           <p className="text-primary-200 text-sm mt-4">
-            Nurses Nook | admin@nursesnook.org | Oconto Falls, WI 54154
+            Nurses Nook | admin@nursesnook.sbs | Oconto Falls, WI 54154
           </p>
         </div>
       </div>

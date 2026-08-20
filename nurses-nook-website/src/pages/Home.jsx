@@ -52,7 +52,7 @@ function Home() {
       <Helmet>
         <title>Nurses Nook | Supporting Healthcare Professionals in Wisconsin</title>
         <meta name="description" content="Nurses Nook is a 501(c)(3) nonprofit organization (EIN 92-2233469) based in Oconto Falls, Wisconsin, providing resources, education, and support for nurses and healthcare professionals." />
-        <link rel="canonical" href="https://nursesnook.org/" />
+        <link rel="canonical" href="https://nursesnook.sbs/" />
       </Helmet>
 
       <Hero />

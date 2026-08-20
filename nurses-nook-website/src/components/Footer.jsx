@@ -109,8 +109,8 @@ function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="text-primary-400 shrink-0" size={20} />
-                <a href="mailto:admin@nursesnook.org" className="text-slate-300 hover:text-white transition-colors">
-                  admin@nursesnook.org
+                <a href="mailto:admin@nursesnook.sbs" className="text-slate-300 hover:text-white transition-colors">
+                  admin@nursesnook.sbs
                 </a>
               </li>
             </ul>

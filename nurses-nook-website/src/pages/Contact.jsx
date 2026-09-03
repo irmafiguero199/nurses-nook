@@ -57,8 +57,8 @@ function Contact() {
                   <div>
                     <h3 className="font-semibold text-slate-900">Email</h3>
                     <p className="text-slate-600">General Inquiries: admin@pelicanbaysailingschoolinc.sbs</p>
-                    <p className="text-slate-600">Programs: programs@pelicanbaysailingschoolinc.sbs</p>
-                    <p className="text-slate-600">Donations: donate@pelicanbaysailingschoolinc.sbs</p>
+                    <p className="text-slate-600">Programs: admin@pelicanbaysailingschoolinc.sbs</p>
+                    <p className="text-slate-600">Donations:admin@pelicanbaysailingschoolinc.sbs</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">

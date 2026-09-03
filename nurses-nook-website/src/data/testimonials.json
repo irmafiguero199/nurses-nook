@@ -1,1 +1,12 @@
-[{"name":"Sarah L.","role":"RN","text":"Nurses Nook gave me the resources I needed to advance my career."},{"name":"David M.","role":"LPN","text":"The wellness programs helped me manage burnout effectively."}]
+[
+  {
+    "name": "Sarah L.",
+    "role": "Sailing Student",
+    "text": "Pelican Bay Sailing School gave me the resources and confidence I needed to advance my sailing skills."
+  },
+  {
+    "name": "David M.",
+    "role": "Community Member",
+    "text": "The maritime safety and training programs helped our local group learn effective water safety skills."
+  }
+]

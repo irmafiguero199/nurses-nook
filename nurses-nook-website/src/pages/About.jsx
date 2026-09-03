@@ -3,36 +3,36 @@ import { MapPin, Calendar, Award, Users, Heart, Target } from 'lucide-react'
 import SectionHeader from '../components/SectionHeader.jsx'
 
 const milestones = [
-  { year: '2021', title: 'Organization Founded', description: 'Nurses Nook was established in Oconto Falls, Wisconsin by a group of dedicated healthcare professionals.' },
-  { year: '2022', title: '501(c)(3) Status Granted', description: 'Received official federal tax-exempt status from the IRS. EIN: 92-2233469.' },
-  { year: '2022', title: 'First Scholarship Awarded', description: 'Launched the Nurses Nook Scholarship Fund, awarding $15,000 in educational grants.' },
-  { year: '2023', title: 'Wellness Program Launch', description: 'Introduced the Nurse Wellness Circle, providing mental health support to over 200 nurses.' },
-  { year: '2024', title: 'Community Expansion', description: 'Extended services to cover Oconto, Marinette, and Brown counties, serving 500+ healthcare workers.' },
-  { year: '2025', title: 'Digital Resource Platform', description: 'Launched online continuing education platform accessible to nurses across Wisconsin.' },
+  { year: '2021', title: 'Organization Founded', description: 'Pelican Bay Sailing School Inc was established in Bonita Springs, Florida by dedicated maritime enthusiasts and community leaders.' },
+  { year: '2022', title: '501(c)(3) Status Granted', description: 'Received official federal tax-exempt status from the IRS. EIN: 92-3488213.' },
+  { year: '2022', title: 'First Youth Program Launched', description: 'Introduced youth sailing and water safety workshops for local students in Lee County.' },
+  { year: '2023', title: 'Maritime Safety Expansion', description: 'Expanded safety certification courses and community boating programs, reaching over 200 participants.' },
+  { year: '2024', title: 'Regional Outreach', description: 'Extended programs across Southwest Florida, providing maritime education to 500+ participants.' },
+  { year: '2025', title: 'Digital Resource Platform', description: 'Launched online educational platform for sailing theory and coastal navigation.' },
 ]
 
 const values = [
-  { icon: Heart, title: 'Compassion', description: 'We lead with empathy, recognizing the emotional and physical demands placed on healthcare professionals.' },
-  { icon: Target, title: 'Excellence', description: 'We maintain the highest standards in our programs, ensuring nurses receive quality resources and education.' },
-  { icon: Users, title: 'Community', description: 'We believe in the power of connection and peer support to strengthen the nursing profession.' },
-  { icon: Award, title: 'Integrity', description: 'We operate with transparency, accountability, and ethical responsibility in all our activities.' },
+  { icon: Heart, title: 'Passion', description: 'We inspire a lifelong love for sailing, marine safety, and ocean stewardship.' },
+  { icon: Target, title: 'Excellence', description: 'We maintain high instructional standards, ensuring safe, top-quality sailing and maritime education.' },
+  { icon: Users, title: 'Community', description: 'We foster an inclusive environment that connects sailors, youth, and water enthusiasts of all backgrounds.' },
+  { icon: Award, title: 'Integrity', description: 'We operate with full transparency, safety prioritization, and accountability in all activities.' },
 ]
 
 function About() {
   return (
     <>
       <Helmet>
-        <title>About Us | Nurses Nook - Oconto Falls, Wisconsin Nonprofit</title>
-        <meta name="description" content="Learn about Nurses Nook, a 501(c)(3) nonprofit organization (EIN 92-2233469) based in Oconto Falls, Wisconsin, dedicated to supporting nurses and healthcare professionals." />
-        <link rel="canonical" href="https://nursesnook.sbs/about" />
+        <title>About Us | Pelican Bay Sailing School Inc - Bonita Springs, Florida Nonprofit</title>
+        <meta name="description" content="Learn about Pelican Bay Sailing School Inc, a 501(c)(3) nonprofit organization (EIN 92-3488213) based in Bonita Springs, Florida, dedicated to sailing education and maritime safety." />
+        <link rel="canonical" href="https://pelicanbaysailingschoolinc.sbs/about" />
       </Helmet>
 
       {/* Page Header */}
       <section className="bg-primary-700 text-white py-20">
         <div className="container-custom text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">About Nurses Nook</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">About Pelican Bay Sailing School</h1>
           <p className="text-xl text-primary-100 max-w-2xl mx-auto">
-            A registered 501(c)(3) nonprofit organization serving Wisconsin's nursing community since 2021.
+            A registered 501(c)(3) nonprofit organization serving Florida's maritime community since 2021.
           </p>
         </div>
       </section>
@@ -48,8 +48,8 @@ function About() {
                   <MapPin className="text-primary-600 mt-1 shrink-0" size={20} />
                   <div>
                     <p className="font-semibold text-slate-900">Physical Address</p>
-                    <p className="text-slate-600">123 Main Street, Suite 3</p>
-                    <p className="text-slate-600">Oconto Falls, WI 54154-0026</p>
+                    <p className="text-slate-600">4971 BONITA BAY BLVD</p>
+                    <p className="text-slate-600">BONITA SPRINGS, FL 34134</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -57,14 +57,14 @@ function About() {
                   <div>
                     <p className="font-semibold text-slate-900">Year Founded</p>
                     <p className="text-slate-600">2021</p>
-                    <p className="text-slate-600">Wisconsin Nonprofit Corporation</p>
+                    <p className="text-slate-600">Florida Nonprofit Corporation</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <Award className="text-primary-600 mt-1 shrink-0" size={20} />
                   <div>
                     <p className="font-semibold text-slate-900">Federal EIN (Tax ID)</p>
-                    <p className="text-slate-600 font-mono">92-2233469</p>
+                    <p className="text-slate-600 font-mono">92-3488213</p>
                     <p className="text-slate-600">501(c)(3) Tax-Exempt Status</p>
                   </div>
                 </div>
@@ -72,8 +72,8 @@ function About() {
                   <Users className="text-primary-600 mt-1 shrink-0" size={20} />
                   <div>
                     <p className="font-semibold text-slate-900">Leadership</p>
-                    <p className="text-slate-600">Board of Directors (7 members)</p>
-                    <p className="text-slate-600">Executive Director: Sarah Mitchell, RN</p>
+                    <p className="text-slate-600">Board of Directors</p>
+                    <p className="text-slate-600">Executive Team & Certified Instructors</p>
                   </div>
                 </div>
               </div>
@@ -82,31 +82,25 @@ function About() {
             <div className="prose prose-lg max-w-none">
               <h2 className="text-3xl font-bold text-slate-900 mb-6">Our Story</h2>
               <p className="text-slate-600 leading-relaxed mb-6">
-                Nurses Nook was born from a simple observation: the nurses who care for our communities 
-                often lack adequate support for their own wellbeing. In 2021, a group of registered nurses 
-                working at Oconto Falls Health Center came together to address this gap. What started as 
-                informal peer support meetings quickly evolved into a structured nonprofit organization 
-                dedicated to the holistic support of healthcare professionals.
+                Pelican Bay Sailing School Inc was founded on the vision of making sailing education, 
+                maritime safety, and environmental stewardship accessible to the local community. 
+                Established in Bonita Springs, Florida, a passionate team of maritime enthusiasts and educators 
+                joined forces to build an inclusive organization committed to fostering confidence, teamwork, and coastal safety.
               </p>
               <p className="text-slate-600 leading-relaxed mb-6">
-                Located at 123 Main Street, Suite 3 in the heart of Oconto Falls, Wisconsin, Nurses Nook 
-                serves as a central resource hub for nurses across Oconto County and neighboring regions. 
-                Our strategic location allows us to partner effectively with local healthcare facilities 
-                including Bellin Health Oconto Hospital, Oconto Falls Health Center, and Aurora BayCare 
-                Medical Center.
+                Located at 4971 Bonita Bay Blvd in Bonita Springs, FL 34134, Pelican Bay Sailing School serves 
+                as a central hub for nautical education across Lee County and neighboring coastal regions. Our location 
+                enables us to partner effectively with local marinas, community groups, and educational organizations.
               </p>
               <p className="text-slate-600 leading-relaxed mb-6">
-                In 2022, Nurses Nook received its official 501(c)(3) tax-exempt status from the Internal 
-                Revenue Service (EIN: 92-2233469), solidifying our commitment to transparent, accountable 
-                nonprofit operations. This federal recognition enables us to accept tax-deductible donations 
-                and apply for grants that expand our capacity to serve Wisconsin's nursing community.
+                Pelican Bay Sailing School Inc holds official 501(c)(3) tax-exempt status under the Internal 
+                Revenue Code (EIN: 92-3488213), reinforcing our commitment to transparent, accountable nonprofit operations. 
+                This status allows us to receive tax-deductible contributions and grants that support our mission 
+                and expand educational access.
               </p>
               <p className="text-slate-600 leading-relaxed mb-6">
-                Our programs have grown to encompass mental health support, continuing education scholarships, 
-                professional development workshops, and community health initiatives. We work closely with 
-                the Wisconsin Department of Safety and Professional Services, the Wisconsin Nurses Association, 
-                and local educational institutions to ensure our offerings meet the highest standards and 
-                address real needs in the field.
+                Our programs continue to grow, encompassing youth sailing camps, adult seamanship classes, 
+                maritime safety seminars, and environmental awareness initiatives designed to empower sailors of all ages.
               </p>
             </div>
           </div>
@@ -118,7 +112,7 @@ function About() {
         <div className="container-custom">
           <SectionHeader
             title="Our Core Values"
-            subtitle="The principles that guide every decision and program at Nurses Nook."
+            subtitle="The principles that guide every course and program at Pelican Bay Sailing School."
           />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {values.map((value, index) => (
@@ -139,7 +133,7 @@ function About() {
         <div className="container-custom">
           <SectionHeader
             title="Our Journey"
-            subtitle="Key milestones in the growth and development of Nurses Nook."
+            subtitle="Key milestones in the growth and development of Pelican Bay Sailing School."
           />
           <div className="max-w-3xl mx-auto">
             {milestones.map((milestone, index) => (
@@ -163,21 +157,21 @@ function About() {
       </section>
 
       {/* Legal Notice */}
-      <section className="bg-nurse-50 py-12 border-y border-nurse-100">
+      <section className="bg-primary-50 py-12 border-y border-primary-100">
         <div className="container-custom">
           <div className="max-w-3xl mx-auto text-center">
             <h3 className="text-xl font-semibold text-slate-900 mb-4">Official Nonprofit Status</h3>
             <p className="text-slate-600 mb-4">
-              Nurses Nook is a registered nonprofit corporation in the State of Wisconsin and holds 
+              Pelican Bay Sailing School Inc is a registered nonprofit corporation in the State of Florida and holds 
               federal tax-exempt status under Section 501(c)(3) of the Internal Revenue Code. 
-              All donations are tax-deductible to the fullest extent allowed by law.
+              All contributions are tax-deductible to the fullest extent allowed by law.
             </p>
             <div className="inline-flex items-center gap-4 bg-white px-6 py-3 rounded-lg shadow-sm">
               <span className="text-sm text-slate-500">Federal EIN:</span>
-              <span className="font-mono font-bold text-slate-900">92-2233469</span>
+              <span className="font-mono font-bold text-slate-900">92-3488213</span>
               <span className="text-slate-300">|</span>
-              <span className="text-sm text-slate-500">Wisconsin Entity ID:</span>
-              <span className="font-mono font-bold text-slate-900">N030943</span>
+              <span className="text-sm text-slate-500">Location:</span>
+              <span className="font-semibold text-slate-900">BONITA SPRINGS, FL 34134</span>
             </div>
           </div>
         </div>

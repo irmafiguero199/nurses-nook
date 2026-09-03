@@ -1,12 +1,13 @@
-# Nurses Nook Website
+# Pelican Bay Sailing School Inc Website
 
-Official website for **Nurses Nook**, a registered 501(c)(3) nonprofit organization based in Oconto Falls, Wisconsin.
+Official website for **Pelican Bay Sailing School Inc**, a registered 501(c)(3) non-profit organization based in Bonita Springs, Florida.
 
-- **Organization:** Nurses Nook
-- **EIN:** 92-2233469
-- **Address:** 123 Main Street, Suite 3, Oconto Falls, WI 54154-0026
-- **Email:** admin@nursesnook.org
-- **Phone:** (920) 846-1234
+- **Organization:** Pelican Bay Sailing School Inc
+- **EIN:** 92-3488213
+- **Document Number:** N23000003412
+- **Address:** 4971 BONITA BAY BLVD, BONITA SPRINGS, FL 34134
+- **Email:** admin@pelicanbaysailingschoolinc.sbs
+- **Domain:** pelicanbaysailingschoolinc.sbs
 
 ## Tech Stack
 
@@ -38,24 +39,3 @@ Official website for **Nurses Nook**, a registered 501(c)(3) nonprofit organizat
 ```bash
 npm install
 npm run dev
-```
-
-## Build for Production
-
-```bash
-npm run build
-```
-
-## Deployment
-
-Deploy the `dist` folder to your hosting provider (GitHub Pages, Netlify, Vercel, etc.).
-
-## Google Workspace for Nonprofits
-
-This site is designed to meet Google Workspace for Nonprofits requirements:
-- Clear organization name and domain relationship
-- Physical address displayed (Oconto Falls, WI 54154-0026)
-- EIN prominently shown (92-2233469)
-- Detailed mission, programs, and impact content
-- Professional, non-template design
-- Functional contact form and real organizational information

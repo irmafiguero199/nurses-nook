@@ -21,16 +21,16 @@ function Donate() {
   return (
     <>
       <Helmet>
-        <title>Donate | Nurses Nook - Support Wisconsin Nurses (EIN 92-2233469)</title>
-        <meta name="description" content="Make a tax-deductible donation to Nurses Nook, a 501(c)(3) nonprofit (EIN 92-2233469). Support nurses in Oconto Falls, Wisconsin." />
-        <link rel="canonical" href="https://nursesnook.org/donate" />
+        <title>Donate | Pelican Bay Sailing School Inc - Support Florida Sailing Programs (EIN 92-3488213)</title>
+        <meta name="description" content="Make a tax-deductible donation to Pelican Bay Sailing School Inc, a 501(c)(3) nonprofit (EIN 92-3488213). Support maritime safety and sailing education in Bonita Springs, Florida." />
+        <link rel="canonical" href="https://pelicanbaysailingschoolinc.sbs/donate" />
       </Helmet>
 
       <section className="bg-gradient-to-br from-warm-500 to-warm-600 text-white py-20">
         <div className="container-custom text-center">
           <Heart className="mx-auto mb-4" size={48} />
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Support Our Mission</h1>
-          <p className="text-xl text-white/90 max-w-2xl mx-auto">Your tax-deductible donation directly supports nurses and healthcare professionals in Wisconsin.</p>
+          <p className="text-xl text-white/90 max-w-2xl mx-auto">Your tax-deductible donation directly supports youth and adult sailing education in Florida.</p>
         </div>
       </section>
 
@@ -38,15 +38,15 @@ function Donate() {
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
             <div>
-              <SectionHeader title="Why Donate?" subtitle="Your contribution makes a real difference in the lives of healthcare workers." centered={false} />
+              <SectionHeader title="Why Donate?" subtitle="Your contribution makes a real difference in expanding maritime education and community safety." centered={false} />
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center shrink-0"><Users className="text-primary-700" size={24} /></div>
-                  <div><h3 className="font-semibold text-slate-900">Direct Impact</h3><p className="text-slate-600 text-sm">85% of every dollar goes directly to programs supporting nurses.</p></div>
+                  <div><h3 className="font-semibold text-slate-900">Direct Impact</h3><p className="text-slate-600 text-sm">85% of every dollar goes directly to sailing instruction and safety equipment.</p></div>
                 </div>
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center shrink-0"><Receipt className="text-primary-700" size={24} /></div>
-                  <div><h3 className="font-semibold text-slate-900">Tax Deductible</h3><p className="text-slate-600 text-sm">Nurses Nook is a 501(c)(3) nonprofit. EIN: 92-2233469. All donations are tax-deductible.</p></div>
+                  <div><h3 className="font-semibold text-slate-900">Tax Deductible</h3><p className="text-slate-600 text-sm">Pelican Bay Sailing School Inc is a 501(c)(3) nonprofit. EIN: 92-3488213. All donations are tax-deductible.</p></div>
                 </div>
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center shrink-0"><Shield className="text-primary-700" size={24} /></div>
@@ -56,10 +56,10 @@ function Donate() {
               <div className="mt-8 p-6 bg-slate-50 rounded-xl">
                 <h3 className="font-semibold text-slate-900 mb-3">Other Ways to Give</h3>
                 <ul className="space-y-2 text-sm text-slate-600">
-                  <li>Mail a check to: Nurses Nook, 123 Main Street, Suite 3, Oconto Falls, WI 54154</li>
+                  <li>Mail a check to: Pelican Bay Sailing School Inc, 4971 BONITA BAY BLVD, BONITA SPRINGS, FL 34134</li>
                   <li>Corporate matching through your employer</li>
-                  <li>Legacy giving and planned donations</li>
-                  <li>In-kind donations of medical supplies or office equipment</li>
+                  <li>Sponsor a boat or safety gear for youth programs</li>
+                  <li>In-kind donations of nautical equipment or educational resources</li>
                 </ul>
               </div>
             </div>
@@ -70,7 +70,7 @@ function Donate() {
                   <div className="text-center py-12">
                     <CheckCircle className="mx-auto text-green-500 mb-4" size={48} />
                     <h3 className="text-xl font-semibold text-slate-900 mb-2">Thank You!</h3>
-                    <p className="text-slate-600">Your generosity supports nurses across Wisconsin. A tax receipt will be emailed to you.</p>
+                    <p className="text-slate-600">Your generosity supports sailors and maritime education across Florida. A tax receipt will be emailed to you.</p>
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-6">
@@ -89,7 +89,7 @@ function Donate() {
                     </div>
                     <div><label className="block text-sm font-medium text-slate-700 mb-1">Email</label><input type="email" required className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-primary-500 outline-none" /></div>
                     <div className="p-4 bg-white rounded-lg border border-slate-200">
-                      <p className="text-sm text-slate-600"><strong>Donation Summary:</strong><br />Amount: ${finalAmount}<br />Organization: Nurses Nook<br />EIN: 92-2233469<br />This is a tax-deductible charitable contribution.</p>
+                      <p className="text-sm text-slate-600"><strong>Donation Summary:</strong><br />Amount: ${finalAmount}<br />Organization: PELICAN BAY SAILING SCHOOL INC<br />EIN: 92-3488213<br />This is a tax-deductible charitable contribution.</p>
                     </div>
                     <button type="submit" className="w-full inline-flex items-center justify-center gap-2 px-6 py-4 bg-warm-500 hover:bg-warm-600 text-white font-bold rounded-lg transition-colors"><Heart size={20} /> Donate ${finalAmount}</button>
                     <p className="text-xs text-slate-500 text-center">Secure payment processing. You will receive an email confirmation and tax receipt.</p>

@@ -14,16 +14,16 @@ function Hero() {
         <div className="max-w-3xl">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm font-medium mb-6">
             <span className="w-2 h-2 bg-warm-400 rounded-full animate-pulse" />
-            Registered 501(c)(3) Nonprofit | EIN: 92-2233469
+            Registered 501(c)(3) Nonprofit | EIN: 92-3488213
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            Supporting Nurses, <br />
-            <span className="text-primary-300">Strengthening Communities</span>
+            Empowering Sailors, <br />
+            <span className="text-primary-300">Inspiring Communities</span>
           </h1>
           <p className="text-lg md:text-xl text-primary-100 mb-8 leading-relaxed max-w-2xl">
-            Nurses Nook is a nonprofit organization based in Oconto Falls, Wisconsin, 
-            dedicated to providing resources, education, and community support for nurses 
-            and healthcare professionals across the region.
+            Pelican Bay Sailing School Inc is a nonprofit organization based in Bonita Springs, Florida, 
+            dedicated to providing sailing instruction, maritime safety education, and community support 
+            across the region.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link to="/programs" className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary-800 font-semibold rounded-lg hover:bg-primary-50 transition-colors">
@@ -42,12 +42,12 @@ function Hero() {
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
             <Users className="text-warm-400 mb-3" size={32} />
             <div className="text-3xl font-bold">500+</div>
-            <div className="text-primary-200">Nurses Supported</div>
+            <div className="text-primary-200">Students & Sailors</div>
           </div>
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
             <BookOpen className="text-warm-400 mb-3" size={32} />
             <div className="text-3xl font-bold">50+</div>
-            <div className="text-primary-200">Training Programs</div>
+            <div className="text-primary-200">Sailing Courses</div>
           </div>
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
             <Heart className="text-warm-400 mb-3" size={32} />

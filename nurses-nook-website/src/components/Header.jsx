@@ -26,16 +26,16 @@ function Header({ isScrolled }) {
       <div className="bg-primary-700 text-white text-sm py-2">
         <div className="container-custom flex justify-between items-center">
           <div className="flex items-center gap-4">
-            <span className="hidden sm:inline">EIN: 92-2233469</span>
+            <span className="hidden sm:inline">EIN: 92-3488213</span>
             <span className="hidden md:inline">|</span>
-            <span className="hidden md:inline">Oconto Falls, WI 54154</span>
+            <span className="hidden md:inline">BONITA SPRINGS, FL 34134</span>
           </div>
           <div className="flex items-center gap-4">
-            <a href="mailto:admin@nursesnook.sbs" className="hover:text-primary-200 transition-colors">admin@nursesnook.sbs</a>
+            <a href="mailto:admin@pelicanbaysailingschoolinc.sbs" className="hover:text-primary-200 transition-colors">admin@pelicanbaysailingschoolinc.sbs</a>
             <span className="hidden sm:inline">|</span>
-            <a href="tel:+19208461234" className="hidden sm:flex items-center gap-1 hover:text-primary-200 transition-colors">
+            <a href="tel:+1234567890" className="hidden sm:flex items-center gap-1 hover:text-primary-200 transition-colors">
               <Phone size={14} />
-              (920) 846-1234
+              Contact Us
             </a>
           </div>
         </div>
@@ -46,10 +46,10 @@ function Header({ isScrolled }) {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <img src="/logo.svg" alt="Nurses Nook Logo" className="h-10 w-10" />
+            <img src="/logo.svg" alt="PELICAN BAY SAILING SCHOOL INC Logo" className="h-10 w-10" />
             <div>
-              <h1 className="text-xl font-bold text-primary-800 leading-tight">Nurses Nook</h1>
-              <p className="text-xs text-gray-500 hidden sm:block">Oconto Falls, Wisconsin</p>
+              <h1 className="text-xl font-bold text-primary-800 leading-tight">PELICAN BAY SAILING SCHOOL INC</h1>
+              <p className="text-xs text-gray-500 hidden sm:block">BONITA SPRINGS, Florida</p>
             </div>
           </Link>
 

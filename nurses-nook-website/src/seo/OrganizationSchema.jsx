@@ -2,29 +2,32 @@ function OrganizationSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "NGO",
-    "name": "Nurses Nook",
-    "description": "A 501(c)(3) nonprofit supporting nurses and healthcare professionals in Oconto Falls, Wisconsin.",
-    "url": "https://nursesnook.org",
-    "logo": "https://nursesnook.org/logo.svg",
-    "email": "admin@nursesnook.org",
-    "telephone": "+1-920-846-1234",
+    "name": "Pelican Bay Sailing School Inc",
+    "description": "A 501(c)(3) non-profit organization providing maritime education, youth sailing programs, and waterfront safety training in Bonita Springs, Florida.",
+    "url": "https://pelicanbaysailingschoolinc.sbs",
+    "logo": "https://pelicanbaysailingschoolinc.sbs/logo.svg",
+    "email": "admin@pelicanbaysailingschoolinc.sbs",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "123 Main Street, Suite 3",
-      "addressLocality": "Oconto Falls",
-      "addressRegion": "WI",
-      "postalCode": "54154-0026",
+      "streetAddress": "4971 BONITA BAY BLVD",
+      "addressLocality": "Bonita Springs",
+      "addressRegion": "FL",
+      "postalCode": "34134",
       "addressCountry": "US"
     },
     "sameAs": [
-      "https://facebook.com/nursesnook",
-      "https://twitter.com/nursesnook",
-      "https://instagram.com/nursesnook"
+      "https://facebook.com/pelicanbaysailingschoolinc",
+      "https://twitter.com/pelicanbaysailing",
+      "https://instagram.com/pelicanbaysailingschoolinc"
     ],
-    "taxID": "92-2233469"
+    "taxID": "92-3488213"
   }
+
   return (
-    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
   )
 }
 

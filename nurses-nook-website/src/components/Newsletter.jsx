@@ -21,8 +21,8 @@ function Newsletter() {
           <Mail className="mx-auto text-white mb-4" size={40} />
           <h2 className="text-3xl font-bold text-white mb-4">Stay Connected</h2>
           <p className="text-primary-100 mb-8">
-            Subscribe to our newsletter for updates on programs, events, and ways to support 
-            nurses in the Oconto Falls community.
+            Subscribe to our newsletter for updates on sailing programs, maritime safety events, and ways to support 
+            the Bonita Springs community.
           </p>
 
           {submitted ? (
@@ -51,7 +51,7 @@ function Newsletter() {
           )}
 
           <p className="text-primary-200 text-sm mt-4">
-            Nurses Nook | admin@nursesnook.sbs | Oconto Falls, WI 54154
+            PELICAN BAY SAILING SCHOOL INC | admin@pelicanbaysailingschoolinc.sbs | BONITA SPRINGS, FL 34134
           </p>
         </div>
       </div>
